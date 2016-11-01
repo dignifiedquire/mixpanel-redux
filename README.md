@@ -1,18 +1,13 @@
-# Redux Segment
-<a href="./.tag"><img src="./logo.png" width="48"></a> _Segment.io analytics integration for redux._
+# Redux Mixpanel
 
-[![CircleCI](https://img.shields.io/circleci/project/rangle/redux-segment.svg)](https://circleci.com/gh/rangle/redux-segment)
-[![npm](https://img.shields.io/npm/v/redux-segment.svg)](https://www.npmjs.com/package/redux-segment)
-[![GitHub
-license](https://img.shields.io/github/license/rangle/redux-segment.svg)](https://github.com/rangle/redux-segment/blob/master/LICENSE)
+This is a direct replacement for [redux-segment](https://github.com/rangle/redux-segment) to use Mixpanel
+<a href="./.tag"><img src="./logo.png" width="48"></a> _Mixpanel analytics integration for redux._
 
 ```
-npm install --save redux-segment
+npm install --save mixpanel-redux
 ```
 
 ---
-<img src="./segment.gif">
-
 
 ## Features
 
@@ -29,12 +24,9 @@ more...).
 - Out-of-the-box support for popular routers:
   - [react-router-redux](https://github.com/rackt/react-router-redux) ✝: >=2.1.0 < 5
   - [redux-router](https://github.com/acdlite/redux-router): ^1.0.3
-- Support for all key Segment specs:
-  - Identify
-  - Page
+- Support for all key Mixpanel specs:  
   - Track
-  - Group
-  - Alias
+  
 
 ✝ Recommended router. You can also trigger page views manually.
 

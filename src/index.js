@@ -10,7 +10,7 @@ import { extractGroupFields } from './event/group';
 
 function emit(type: string, fields: Array) {
   try {
-    window.analytics[type](...fields);
+    window.mixpanel[type](...fields);
   } catch (error) {
     warn(`Call to window.analytics[${ type }] failed. Make sure that the anaytics.js` +
          ` script is loaded and executed before your application code.\n`, error);
